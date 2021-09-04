@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c67dc13fa09de5a42a1b44ec791e1046, type: 3}
+  m_Name: Prologue
+  m_EditorClassIdentifier: 
+  dialogues:
+  - name: Felix
+    portrait: {fileID: 5255851575872405290, guid: cd31c399755cc5341919b549c77c1ac3, type: 3}
+    dialogueBR: '*Aparece sem ser notado*'
+    dialogueEN: '*Shows up without anyone noticing it*'
+  - name: Maximus
+    portrait: {fileID: -2278566297644842510, guid: e28e070bb193c7c489868a6b32cfc47b, type: 3}
+    dialogueBR: '*Snif* Quanto tempo velho amigo. Seu cheiro de atum na barba ainda
+      o dedura.'
+    dialogueEN: '*Snif* How long old friend. This tuna smell from yours is still
+      remarkable.'
+  - name: Felix
+    portrait: {fileID: 74986948101558118, guid: cd31c399755cc5341919b549c77c1ac3, type: 3}
+    dialogueBR: "Droga, ainda me intriga voc\xEA n\xE3o virar o l\xEDder da intelig\xEAncia.
+      Tanto potencial..."
+    dialogueEN: Shit, im still intrigued with the fact that you aren't the leader
+      of the intelligence yet.
+  - name: Maximus
+    portrait: {fileID: -2278566297644842510, guid: e28e070bb193c7c489868a6b32cfc47b, type: 3}
+    dialogueBR: "Voc\xEA sabe o motivo Felix, mas me conta como foram seus dias no 
+      MEDITERANEO?  Achou outros gatos ou foram dias calmos na praia?"
+    dialogueEN: You know why Felix, but tell me one thing, how was your days in the
+      mediterranean? Met any cat or everything was calm down there?
+  - name: Felix
+    portrait: {fileID: -667032311606412684, guid: cd31c399755cc5341919b549c77c1ac3, type: 3}
+    dialogueBR: "Eu n\xE3o sou de praia Maximus, mas sou t\xEDmido e voc\xEA sabe
+      disso, ent\xE3o os outros gatos n\xE3o brincaram comigo. Mas la \xE9 maravilhoso,
+      talvez eu volte no barco das 16:45 de hoje."
+    dialogueEN: I'm not a beach guy Maximus and you know how shy i am so the other
+      cats wouldn't play with me. It's great there though, i might get back with
+      the 4:45 ship.
+  - name: Felix
+    portrait: {fileID: 5720878794063898385, guid: cd31c399755cc5341919b549c77c1ac3, type: 3}
+    dialogueBR: "Mas mudando de assunto esse \xE9 o seu menino prodigio?"
+    dialogueEN: By the way, is this your prodigy guy?
+  - name: Maximus
+    portrait: {fileID: -2278566297644842510, guid: e28e070bb193c7c489868a6b32cfc47b, type: 3}
+    dialogueBR: "Sim, assim como eu ele tamb\xE9m \xE9 um mesti\xE7o, por\xE9m de
+      lobo. Quero fazer dele um sucessor digno, al\xE9m do mais ele ainda n\xE3o
+      desistiu do meu treino e ningu\xE9m la de cima conversou com ele."
+    dialogueEN: Yeah, like me he is a mixed one too, but with a wolf. I want to make
+      him a worthy successor, he haven't run from my training yet, and no one from
+      upstairs have talked with him.
+  - name: Maximus
+    portrait: {fileID: -2278566297644842510, guid: e28e070bb193c7c489868a6b32cfc47b, type: 3}
+    dialogueBR: "Ele tem um problema com estresse, mas tirando isso est\xE1 sendo
+      meu melhor recruta at\xE9 hoje."
+    dialogueEN: He has a little problem with stress, but other than that he is my
+      best trainee till this day.
+  - name: Maximus
+    portrait: {fileID: -2278566297644842510, guid: e28e070bb193c7c489868a6b32cfc47b, type: 3}
+    dialogueBR: "Woolfgang Karmel, esse \xE9 Felix Wingat. Uma pessoa de confian\xE7a
+      e amigo de longa data. E eu n\xE3o mandei descansar, volte para o treino!"
+    dialogueEN: Woolfgang Karmel, this is Felix Wingat. A trusty person and an old
+      friend. And hey, did you got any order to rest?? Get to the training again
+      now!

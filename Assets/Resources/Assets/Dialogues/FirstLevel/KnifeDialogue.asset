@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c67dc13fa09de5a42a1b44ec791e1046, type: 3}
+  m_Name: KnifeDialogue
+  m_EditorClassIdentifier: 
+  dialogues:
+  - name: Maximus
+    portrait: {fileID: -2278566297644842510, guid: cd31c399755cc5341919b549c77c1ac3, type: 3}
+    dialogueBR: "Escuta aqui Karmel, voc\xEA precisa aprender a usar sua faca para
+      se defender, nem sempre voc\xEA vai ter uma arma por perto."
+    dialogueEN: Listen here Karmel, you need to learn how to use your knife to protect
+      yourself, you won't have a gun close to you all the time.
+  - name: Maximus
+    portrait: {fileID: -2278566297644842510, guid: cd31c399755cc5341919b549c77c1ac3, type: 3}
+    dialogueBR: "Sempre tente pegar os inimigos desprevinidos, se te ouvirem voc\xEA
+      ta lascado."
+    dialogueEN: Always try to get the enemies in a surprise, otherwise you will be
+      screwed up.

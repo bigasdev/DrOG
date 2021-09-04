@@ -1,0 +1,672 @@
+fileFormatVersion: 2
+guid: 3cbe64b7f38358848bb02410cfb48a00
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -535325862976681397
+    second: drogMainMenu_0
+  - first:
+      213: -8775436324926392431
+    second: drogMainMenu_1
+  - first:
+      213: 5662343971300334992
+    second: drogMainMenu_2
+  - first:
+      213: -176915627708508667
+    second: drogMainMenu_3
+  - first:
+      213: -4764582525459179422
+    second: drogMainMenu_4
+  - first:
+      213: -7101327330844488559
+    second: drogMainMenu_5
+  - first:
+      213: 7635700095649442463
+    second: drogMainMenu_6
+  - first:
+      213: -1705400910820228818
+    second: drogMainMenu_7
+  - first:
+      213: -5119822983883535157
+    second: drogMainMenu_8
+  - first:
+      213: 6877404056814375220
+    second: drogMainMenu_9
+  - first:
+      213: 3357779169366685044
+    second: drogMainMenu_10
+  - first:
+      213: 6474736866692209374
+    second: drogMainMenu_11
+  - first:
+      213: 360288573784239009
+    second: drogMainMenu_12
+  - first:
+      213: 4257747690157345772
+    second: drogMainMenu_13
+  - first:
+      213: 6882202499810818089
+    second: drogMainMenu_14
+  - first:
+      213: -5968006699656255846
+    second: drogMainMenu_15
+  - first:
+      213: -8844622632079998530
+    second: drogMainMenu_16
+  - first:
+      213: -4958907777584952744
+    second: drogMainMenu_17
+  - first:
+      213: 6807615641320071334
+    second: drogMainMenu_18
+  - first:
+      213: 3394478057579851123
+    second: uzi
+  - first:
+      213: 1559383625616234539
+    second: rifle
+  - first:
+      213: 2292046195805750375
+    second: shotgun
+  - first:
+      213: 2377258642011676137
+    second: pistol
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: drogMainMenu_0
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 1212
+        width: 784
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a0232c6f32298f0800000000000000
+      internalID: -535325862976681397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drogMainMenu_1
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 699
+        width: 173
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197f3bf1823673680800000000000000
+      internalID: -8775436324926392431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drogMainMenu_2
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 700
+        width: 215
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d5e6d67dfa49e40800000000000000
+      internalID: 5662343971300334992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drogMainMenu_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 644
+        width: 264
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50618378c287b8df0800000000000000
+      internalID: -176915627708508667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drogMainMenu_4
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 580
+        width: 161
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268d8fadf6dc0edb0800000000000000
+      internalID: -4764582525459179422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drogMainMenu_5
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 641
+        width: 363
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ccd33ca64037d90800000000000000
+      internalID: -7101327330844488559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drogMainMenu_6
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 580
+        width: 157
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ae99408c477f960800000000000000
+      internalID: 7635700095649442463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drogMainMenu_7
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 375
+        width: 513
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21ceee38e23558e0800000000000000
+      internalID: -1705400910820228818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drogMainMenu_8
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 298
+        width: 888
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcccdb44f1cb2f8b0800000000000000
+      internalID: -5119822983883535157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drogMainMenu_9
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 370
+        width: 628
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43150473d82717f50800000000000000
+      internalID: 6877404056814375220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drogMainMenu_10
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 297
+        width: 307
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475be404d5a399e20800000000000000
+      internalID: 3357779169366685044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drogMainMenu_11
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 499
+        width: 491
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda905920e2ead950800000000000000
+      internalID: 6474736866692209374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drogMainMenu_12
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 449
+        width: 366
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1abaa098c80000500800000000000000
+      internalID: 360288573784239009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drogMainMenu_13
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 2036
+        width: 279
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb811737fe861b30800000000000000
+      internalID: 4257747690157345772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drogMainMenu_14
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 1962
+        width: 279
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9287789c5be728f50800000000000000
+      internalID: 6882202499810818089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drogMainMenu_15
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 2009
+        width: 279
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9666d9c6816d2da0800000000000000
+      internalID: -5968006699656255846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drogMainMenu_16
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1952
+        width: 279
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1cd72b396914580800000000000000
+      internalID: -8844622632079998530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drogMainMenu_17
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 731
+        width: 763
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a802356ab6e2bb0800000000000000
+      internalID: -4958907777584952744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drogMainMenu_18
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 630
+        width: 1282
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0a6448b52897e50800000000000000
+      internalID: 6807615641320071334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uzi
+      rect:
+        serializedVersion: 2
+        x: 2339
+        y: 395
+        width: 101
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37da7e30fcb9b1f20800000000000000
+      internalID: 3394478057579851123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rifle
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 351
+        width: 136
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b289a61452b04a510800000000000000
+      internalID: 1559383625616234539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shotgun
+      rect:
+        serializedVersion: 2
+        x: 2281
+        y: 309
+        width: 218
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76489cd0fdbfecf10800000000000000
+      internalID: 2292046195805750375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pistol
+      rect:
+        serializedVersion: 2
+        x: 2297
+        y: 266
+        width: 177
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed5550c328bdf020800000000000000
+      internalID: 2377258642011676137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
