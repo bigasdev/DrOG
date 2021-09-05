@@ -30,6 +30,7 @@ public class Bullet : MonoBehaviour
     void KillEntity(Entity entity){
         if(entity == null)return;
         entity.Hp.Hp -= 1;
+        entity.foundPlayer = true;
         if(entity.Hp.Hp <= 0)entity.ChangeCorpse();
         if(entity.Hp.Hp < 0)return;
         EffectsHandler.SpawnPopup("PointsPopup", entity.transform, Vector3.zero);

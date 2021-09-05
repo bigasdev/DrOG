@@ -6,6 +6,8 @@ using UnityEngine;
 public class DialogueObject : ScriptableObject
 {
     public Dialogue[] dialogues;
+    public string sceneToChange;
+    public AudioClip music;
 }
 [System.Serializable]
 public class Dialogue{

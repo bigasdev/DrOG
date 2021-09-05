@@ -19,3 +19,5 @@ MonoBehaviour:
       de saber que eu usei erva de gato?"
     dialogueEN: I feel great like this, but Maximus might not like if he knew i'm
       using cat herb.
+  sceneToChange: SecondLevel
+  music: {fileID: 8300000, guid: 1fb02fd293bc51f4395715357764cfca, type: 3}

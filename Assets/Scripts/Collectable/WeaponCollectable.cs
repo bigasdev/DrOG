@@ -7,7 +7,8 @@ public class WeaponCollectable : Collectable
     private const string weaponFolder = "Assets/Sprites/Player/";
     public Weapon weapon;
     [SerializeField]SpriteRenderer spriteRenderer;
-    public bool wasThrown;
+    [SerializeField]DialogueObject dialogueObject;
+    public bool wasThrown, launchDialogue;
     bool canBeCollected;
     private void Start() {
         Initialize();
@@ -47,12 +48,18 @@ public class WeaponCollectable : Collectable
         PlayerHandler.ChangePlayerWeapon(this.weapon);
         AudioController.Instance.PlaySound("pickup");
         canBeCollected = false;
+        if(launchDialogue){
+            var dialogue = Resources.Load<DialogueHud>("Prefabs/Views/DialogueHud");
+            var d = Instantiate(dialogue);
+            d.StartDialogue(dialogueObject);
+        }
         //PlayerHandler.ChangePlayerSprite(weapon.weaponName + Player.Instance.copName);
         base.OnCollect(player);
     }
     void KillEntity(Entity entity){
         if(entity == null || !wasThrown)return;
         entity.Hp.Hp -= 1;
+        entity.foundPlayer = true;
         if(entity.Hp.Hp <= 0)entity.ChangeCorpse();
         if(entity.Hp.Hp < 0)return;
         EffectsHandler.SpawnPopup("PointsPopup", entity.transform, Vector3.zero);

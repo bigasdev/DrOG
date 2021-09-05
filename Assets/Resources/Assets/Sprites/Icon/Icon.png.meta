@@ -44,6 +44,9 @@ TextureImporter:
   - first:
       213: 74986948101558118
     second: felixTriste
+  - first:
+      213: -6835140972088375299
+    second: Icon_14
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -434,6 +437,27 @@ TextureImporter:
       bones: []
       spriteID: 66f42646b386a0100800000000000000
       internalID: 74986948101558118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 10
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df744f00083b421a0800000000000000
+      internalID: -6835140972088375299
       vertices: []
       indices: 
       edges: []

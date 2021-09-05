@@ -262,7 +262,7 @@ MonoBehaviour:
     m_Bits: 6144
   deathSound: {fileID: 8300000, guid: 0288c9f9cb9408f4ca95164030282a9d, type: 3}
   seeSound: {fileID: 0}
-  runSpeed: 12
+  runSpeed: 8
   isChase: 1
   isStatic: 0
   foundPlayer: 0

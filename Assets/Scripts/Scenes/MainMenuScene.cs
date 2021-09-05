@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class MainMenuScene : MonoBehaviour
 {
+    bool canPlay = true;
     public void Play(){
-        LevelController.Instance.LoadWorldMethod("FirstLevel", "gameMusic");
+        if(!canPlay)return;
+        LevelController.Instance.LoadWorldMethod("HowToPlay", "gameMusic");
+        canPlay = false;
     }
 }

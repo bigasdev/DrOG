@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c67dc13fa09de5a42a1b44ec791e1046, type: 3}
+  m_Name: ThirdLevel
+  m_EditorClassIdentifier: 
+  dialogues:
+  - name: Karmel
+    portrait: {fileID: -2297356003100555120, guid: e28e070bb193c7c489868a6b32cfc47b, type: 3}
+    dialogueBR: "N\xE3o posso confiar em ninguem eu vou dar um jeito em tudo EU PRECISO"
+    dialogueEN: I can't trust anyone, i'll fix this alone. I NEED TO.
+  - name: Wolfgang Karmel
+    portrait: {fileID: -2283812220494294954, guid: cd31c399755cc5341919b549c77c1ac3, type: 3}
+    dialogueBR: SOLTE SUA RAIVAAAAAA!!!!
+    dialogueEN: FREE YOUR ANGER!!!!!!!!!!
+  - name: Radio
+    portrait: {fileID: 4110904071764403720, guid: 70f76aabdf9ed1e49b91479685b9df13, type: 3}
+    dialogueBR: Barulhos de balas perdidas pela cidade inteira por favor fiquem em
+      casa
+    dialogueEN: Shots heard from the whole city, please stay at your house.
+  - name: Radio
+    portrait: {fileID: 4110904071764403720, guid: 70f76aabdf9ed1e49b91479685b9df13, type: 3}
+    dialogueBR: Garoto fiquei sabendo sobre o que aconteceu...
+    dialogueEN: Hey kiddo, i heard what happened with Maximus...
+  - name: Karmel
+    portrait: {fileID: -2297356003100555120, guid: e28e070bb193c7c489868a6b32cfc47b, type: 3}
+    dialogueBR: "Esse gato deve ter vazado a localiza\xE7\xE3o do Maximus. Esses
+      gatunos"
+    dialogueEN: Some cat must have sold his location. I'll catch them.
+  - name: Karmel
+    portrait: {fileID: 644233744522929174, guid: cd31c399755cc5341919b549c77c1ac3, type: 3}
+    dialogueBR: "Droga de carro que n\xE3o pega direito  daqui eu vou a p\xE9 mesmo"
+    dialogueEN: Damn this car won't work?? I'll get walking.
+  sceneToChange: 
+  music: {fileID: 0}

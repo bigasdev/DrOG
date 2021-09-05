@@ -12,7 +12,8 @@ public class Door : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other) {
         var player = other.GetComponent<Player>();
-        if(player == null || open)return;
+        var entity = other.GetComponent<WalkEntity>();
+        if(player == null && entity == null || open)return;
         GetComponent<BoxCollider2D>().enabled = false;
         anim.SetTrigger("Open");
         open = true;

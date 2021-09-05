@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     [Header("Cop")]
-    public string copName;
+    public Cops cop = Cops.Karmel;
     private static Player instance;
     public static Player Instance{
         get{
@@ -156,4 +156,9 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(.25f);
         canRestart = true;
     }
+}
+public enum Cops{
+    Maximus,
+    Karmel,
+    Felix
 }

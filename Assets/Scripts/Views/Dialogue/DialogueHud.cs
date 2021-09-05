@@ -40,18 +40,20 @@ public class DialogueHud : MonoBehaviour
     }
     IEnumerator Type(){
         anim.SetTrigger("Enter");
-        yield return new WaitForSeconds(.5f);
+        yield return new WaitForSeconds(.15f);
         dialogue.text = "";
         realDialogue = DataController.Instance.settings.language == "PT-BR" ? dialogueObject.dialogues[dialogueIndex].dialogueBR : dialogueObject.dialogues[dialogueIndex].dialogueEN;
         dialoguePortrait.sprite = dialogueObject.dialogues[dialogueIndex].portrait;
         dialogueName.text = dialogueObject.dialogues[dialogueIndex].name;
 
-        foreach(var c in realDialogue){
+        /*foreach(var c in realDialogue){
             AudioController.Instance.PlaySound(typingSound);
             canCommand = true;
             dialogue.text += c;
             yield return new WaitForSeconds(.05f);
-        }
+        }*/
+        dialogue.text = realDialogue;
+        canCommand = true;
         canGoToNextDialogue = true;
         skipButton.SetActive(true);
     }
@@ -83,6 +85,9 @@ public class DialogueHud : MonoBehaviour
         anim.SetTrigger("FullLeave");
         yield return new WaitForSeconds(.5f);
         StateController.Instance.currentState = StateDefinition.GAME_UPDATE;
+        if(dialogueObject.sceneToChange != "" && !string.IsNullOrEmpty(dialogueObject.sceneToChange)){
+            LevelController.Instance.LoadWorldMethod(dialogueObject.sceneToChange, dialogueObject.music);
+        }
         Destroy(this.gameObject);
     }
     void ForceEndOfDialogue()

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c67dc13fa09de5a42a1b44ec791e1046, type: 3}
+  m_Name: MaximusEscoltaFinal
+  m_EditorClassIdentifier: 
+  dialogues:
+  - name: ...
+    portrait: {fileID: -6835140972088375299, guid: cd31c399755cc5341919b549c77c1ac3, type: 3}
+    dialogueBR: "Saiba que vc sempre foi um p\xE9 no saco o ultimo policial incorupitivel
+      tem seu fim hoj\xE9"
+    dialogueEN: Know you've been always a pain in the ass, but it's finally the last
+      day of the only good cop from this town.
+  - name: Maximus
+    portrait: {fileID: 2487655054320033108, guid: cd31c399755cc5341919b549c77c1ac3, type: 3}
+    dialogueBR: Kar.. mel  me ajuda...
+    dialogueEN: Kar.. mel help me...
+  - name: ...
+    portrait: {fileID: -6835140972088375299, guid: cd31c399755cc5341919b549c77c1ac3, type: 3}
+    dialogueBR: "Agora a senhora preciosa n\xE3o tem mais essa ervilha atrapalhando
+      o sono dela"
+    dialogueEN: Now the lady preciosa won't have this pea disturbing her dreams anymore.
+  - name: ...
+    portrait: {fileID: -6835140972088375299, guid: cd31c399755cc5341919b549c77c1ac3, type: 3}
+    dialogueBR: ACABEM COM ELE!!!!
+    dialogueEN: FINISH HIM OFF!!!!!
+  sceneToChange: ThirdLevel
+  music: {fileID: 8300000, guid: 1fb02fd293bc51f4395715357764cfca, type: 3}

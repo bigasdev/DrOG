@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c67dc13fa09de5a42a1b44ec791e1046, type: 3}
+  m_Name: MaximusEscolta
+  m_EditorClassIdentifier: 
+  dialogues:
+  - name: Maximus
+    portrait: {fileID: -1313622784187593632, guid: cd31c399755cc5341919b549c77c1ac3, type: 3}
+    dialogueBR: 'Wolfgang para Wolfgang to indo pro Bueiro ver a final do Ratos contra
+      Corujas, se quiser da uma aparecida, seria uma boa. '
+    dialogueEN: Wolfgang to Wolfgang i'm going to the Sewer to watch the Rats vs
+      Owls finals, if you want to show up would be nice.
+  - name: Karmel
+    portrait: {fileID: 6739602711923796364, guid: cd31c399755cc5341919b549c77c1ac3, type: 3}
+    dialogueBR: "Ninguem gosta de mim l\xE1 da ultima vez que eu fui eu rasguei a
+      mesa de bilhar"
+    dialogueEN: No one likes me there. The last time i went there i smashed the billiards
+      table
+  - name: Maximus
+    portrait: {fileID: -2278566297644842510, guid: e28e070bb193c7c489868a6b32cfc47b, type: 3}
+    dialogueBR: "Hahahah Foi engra\xE7ado pelo menos. Mas ser....."
+    dialogueEN: Hahahah it was funny at least, but it woul--
+  - name: Maximus
+    portrait: {fileID: -1313622784187593632, guid: cd31c399755cc5341919b549c77c1ac3, type: 3}
+    dialogueBR: Vish tem algo suspeito rolando aqui
+    dialogueEN: Damn i saw something suspicious
+  - name: Karmel
+    portrait: {fileID: -2297356003100555120, guid: e28e070bb193c7c489868a6b32cfc47b, type: 3}
+    dialogueBR: "Voc\xEA esta a paizana e se levar na DP eles v\xE3o ser soltos de
+      novo vai aproveitar a noite"
+    dialogueEN: You are undercover and you know that if you drag someone to the police
+      department they will release it right? Enjoy the night Maximus.
+  - name: Maximus
+    portrait: {fileID: -1313622784187593632, guid: cd31c399755cc5341919b549c77c1ac3, type: 3}
+    dialogueBR: "Se voc\xEA soubesse como esse jogo vai se desenrolar, fica em liga\xE7\xE3o
+      que vou te ensinar como lidar com essas crian\xE7as que servem de avi\xE3ozinho"
+    dialogueEN: Stay in the call, i will teach you how to deal with these kids that
+      work for the mafia.

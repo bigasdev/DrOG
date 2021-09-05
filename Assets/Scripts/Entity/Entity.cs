@@ -15,17 +15,26 @@ public class Entity : MonoBehaviour
     [SerializeField] bool isChase, isStatic;
     public bool foundPlayer;
     [SerializeField] float playerMinDist;
+    [SerializeField] DialogueObject killPlayerDialogue;
     SpriteRenderer spriteRenderer;
-    bool isDead = false;
+    bool isDead = false, killedCop = false;
     private void OnTriggerEnter2D(Collider2D other) {
-        if(isDead)return;
+        if(isDead || killedCop)return;
         var player = other.GetComponent<Player>();
         if(player != null){
             CameraManager.KillShake();
             player.hp.Hp -= 1;
             if(player.hp.Hp <= 0){
                 AudioController.Instance.PlaySound("playerDeath");
-                PlayerHandler.SpawnRestartScreen();
+                if(player.cop == Cops.Karmel)PlayerHandler.SpawnRestartScreen();
+                if(player.cop == Cops.Maximus){
+                    if(killPlayerDialogue != null){
+                        var dialogue = Resources.Load<DialogueHud>("Prefabs/Views/DialogueHud");
+                        var d = Instantiate(dialogue);
+                        d.StartDialogue(killPlayerDialogue);
+                    }
+                }
+                killedCop = true;
             }
         }
     }

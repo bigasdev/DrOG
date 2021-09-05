@@ -3155,7 +3155,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1639442184050310296, guid: 9c01a2ee0be282b438458b1c72d73a54, type: 3}
       propertyPath: orthographic size
-      value: 10
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1639442184145289036, guid: 9c01a2ee0be282b438458b1c72d73a54, type: 3}
       propertyPath: bounds
