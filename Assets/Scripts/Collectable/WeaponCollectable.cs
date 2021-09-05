@@ -8,6 +8,7 @@ public class WeaponCollectable : Collectable
     public Weapon weapon;
     [SerializeField]SpriteRenderer spriteRenderer;
     [SerializeField]DialogueObject dialogueObject;
+    [SerializeField]bool initialize = true;
     public bool wasThrown, launchDialogue;
     bool canBeCollected;
     private void Start() {
@@ -18,6 +19,7 @@ public class WeaponCollectable : Collectable
         canBeCollected = true;
     }
     public void Initialize(){
+        if(!initialize)return;
         var sprites = Resources.LoadAll<Sprite>(weaponFolder + "Arma");
         Sprite sprite = null;
         foreach(var s in sprites){
@@ -45,6 +47,12 @@ public class WeaponCollectable : Collectable
     }
     public override void OnCollect(Player player)
     {
+        if(player.weaponItem != null){
+            if(player.weaponItem.weaponName == "bestial")return;
+        }
+        if(weapon.weaponName == "bestial"){
+            player.hp.Hp += 1;
+        }
         PlayerHandler.ChangePlayerWeapon(this.weapon);
         AudioController.Instance.PlaySound("pickup");
         canBeCollected = false;

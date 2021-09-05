@@ -39,8 +39,7 @@ public class DialogueHud : MonoBehaviour
         StartCoroutine(dialogueCoroutine);
     }
     IEnumerator Type(){
-        anim.SetTrigger("Enter");
-        yield return new WaitForSeconds(.15f);
+        //anim.SetTrigger("Enter");
         dialogue.text = "";
         realDialogue = DataController.Instance.settings.language == "PT-BR" ? dialogueObject.dialogues[dialogueIndex].dialogueBR : dialogueObject.dialogues[dialogueIndex].dialogueEN;
         dialoguePortrait.sprite = dialogueObject.dialogues[dialogueIndex].portrait;
@@ -53,6 +52,7 @@ public class DialogueHud : MonoBehaviour
             yield return new WaitForSeconds(.05f);
         }*/
         dialogue.text = realDialogue;
+        yield return new WaitForSeconds(.5f);
         canCommand = true;
         canGoToNextDialogue = true;
         skipButton.SetActive(true);
@@ -69,10 +69,10 @@ public class DialogueHud : MonoBehaviour
         }
     }
     IEnumerator WaitForNext(){
-        anim.SetTrigger("Leave");
+        //anim.SetTrigger("Leave");
         skipButton.SetActive(false);
         canGoToNextDialogue = false;
-        yield return new WaitForSeconds(.5f);
+        yield return new WaitForSeconds(.15f);
         dialogueIndex++;
         dialogueCoroutine = Type();
         dialogue.text = "";
@@ -82,8 +82,8 @@ public class DialogueHud : MonoBehaviour
         leaveCoroutine = null;
     }
     IEnumerator WaitforLeave(){
-        anim.SetTrigger("FullLeave");
-        yield return new WaitForSeconds(.5f);
+        //anim.SetTrigger("FullLeave");
+        yield return new WaitForSeconds(.15f);
         StateController.Instance.currentState = StateDefinition.GAME_UPDATE;
         if(dialogueObject.sceneToChange != "" && !string.IsNullOrEmpty(dialogueObject.sceneToChange)){
             LevelController.Instance.LoadWorldMethod(dialogueObject.sceneToChange, dialogueObject.music);

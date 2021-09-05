@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c67dc13fa09de5a42a1b44ec791e1046, type: 3}
+  m_Name: HatRatYesKills
+  m_EditorClassIdentifier: 
+  dialogues:
+  - name: Hat the Rat
+    portrait: {fileID: 4110904071764403720, guid: 70f76aabdf9ed1e49b91479685b9df13, type: 3}
+    dialogueBR: Nha Nha Nha AHHHHHHHHHH Biikuto
+    dialogueEN: Nha Nha Nha AHHHHHHHHHH Biikuto
+  - name: Karmel
+    portrait: {fileID: 6739602711923796364, guid: cd31c399755cc5341919b549c77c1ac3, type: 3}
+    dialogueBR: Sniff Sniff filho de uma ninhada ruim, FALA ONDE ESTA A PRECIOSA?
+    dialogueEN: Sniff Sniff son of a bad brooding, where is Preciosa??
+  - name: Hat the Rat
+    portrait: {fileID: 4110904071764403720, guid: 70f76aabdf9ed1e49b91479685b9df13, type: 3}
+    dialogueBR: Fi ffrioo Biikuto sabe, ele sabe de tudo.
+    dialogueEN: Fi ffriooo Biikuto knows, he knows about everything.
+  - name: Karmel
+    portrait: {fileID: 6739602711923796364, guid: cd31c399755cc5341919b549c77c1ac3, type: 3}
+    dialogueBR: "Pat\xE9tico. Mas pelomenos eu consegui um nome."
+    dialogueEN: How pathetic. But at least i got a name.
+  - name: Hat the Rat
+    portrait: {fileID: 4110904071764403720, guid: 70f76aabdf9ed1e49b91479685b9df13, type: 3}
+    dialogueBR: "Eu... Voc\xEA... V\xE3o Sumir..."
+    dialogueEN: You... Me... We will vanish....
+  sceneToChange: ForthLevel
+  music: {fileID: 0}

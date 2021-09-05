@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c67dc13fa09de5a42a1b44ec791e1046, type: 3}
+  m_Name: HatRatKilled
+  m_EditorClassIdentifier: 
+  dialogues:
+  - name: Karmel
+    portrait: {fileID: -2297356003100555120, guid: e28e070bb193c7c489868a6b32cfc47b, type: 3}
+    dialogueBR: Eu deveria procurar por esse tal de hat the rat que os ratos estavam
+      falando.
+    dialogueEN: I should look for this hat the rat these rats were talking about.
+  sceneToChange: 
+  music: {fileID: 0}

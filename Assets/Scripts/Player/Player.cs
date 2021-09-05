@@ -25,10 +25,12 @@ public class Player : MonoBehaviour
     public SpriteRenderer spriteRenderer;
     public Weapon weaponItem;
     public Weapon knife;
+    public Weapon bestial;
     public Transform weapon;
     float shootTimer;
     SettingsMenu settingsMenu;
     bool canRestart = true, canWalk = true;
+    public bool isDead;
     Coroutine cdRestart;
     private void Start() {
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
@@ -80,6 +82,15 @@ public class Player : MonoBehaviour
             anim.SetTrigger("KnifeHit");
             return;
         }
+        if(weaponItem.weaponName == "bestial"){
+            CameraManager.ShootShake();
+            hitbox.SetActive(true);
+            hitbox.GetComponent<PlayerHitBox>().timer = .8f;
+            EffectsHandler.ThrowStuff(this, this.transform, this.transform.position + transform.up * 3, 25);
+            AudioController.Instance.PlaySound("knifeSound");
+            anim.SetTrigger("BestialHit");
+            return;
+        }
         CloseEnemies();
         BulletsPool.Instance.GetFromPlayerPool(new Vector2(weapon.transform.position.x + Random.Range(-weaponItem.accuracy, weaponItem.accuracy), weapon.transform.position.y), weapon.transform.rotation);
         EffectsHandler.SpawnParticle(this.transform, "BulletDrop");
@@ -110,7 +121,7 @@ public class Player : MonoBehaviour
         this.transform.rotation = rotation;
     }
     void ShootWeapon(){
-        if(weaponItem.weaponName == "knife")return;
+        if(weaponItem.weaponName == "knife" || weaponItem.weaponName == "bestial")return;
         var weapon = Resources.Load<WeaponCollectable>("Prefabs/Collectables/WeaponCollectable");
         var w = Instantiate(weapon);
         w.weapon = weaponItem;

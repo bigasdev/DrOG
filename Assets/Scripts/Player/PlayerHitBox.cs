@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerHitBox : MonoBehaviour
 {
     bool CanHitAgain = true;
+    public float timer = .3f;
     Coroutine cd;
     private void OnEnable() {
         StartCoroutine(DisableAgain());
@@ -19,8 +20,12 @@ public class PlayerHitBox : MonoBehaviour
     }
     void KillEntity(Entity entity){
         if(entity == null || !CanHitAgain)return;
+        if(entity.isDead)return;
         entity.Hp.Hp -= 2;
-        if(entity.Hp.Hp <= 0)entity.ChangeCorpse();
+        if(entity.Hp.Hp <= 0){
+            CloseEnemies();
+            entity.ChangeCorpse();
+        }
         if(entity.Hp.Hp < 0)return;
         EffectsHandler.SpawnPopup("PointsPopup", entity.transform, Vector3.zero);
         EffectsHandler.SpawnBlood(entity.transform, this.transform);
@@ -34,7 +39,15 @@ public class PlayerHitBox : MonoBehaviour
         cd = null;
     }
     IEnumerator DisableAgain(){
-        yield return new WaitForSeconds(.3f);
+        yield return new WaitForSeconds(timer);
         this.gameObject.SetActive(false);
+    }
+    void CloseEnemies(){
+        var enemies = FindObjectsOfType<Entity>();
+        foreach(var e in enemies){
+            if(Vector2.Distance(e.transform.position, this.transform.position) <= 10){
+                e.foundPlayer = true;
+            }
+        }
     }
 }

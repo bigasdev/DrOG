@@ -11,6 +11,18 @@ public class Bullet : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other) {
         var entity = other.GetComponent<Entity>();
+        var player = other.GetComponent<Player>();
+        if(player != null){
+            if(player.isDead)return;
+            CameraManager.KillShake();
+            player.hp.Hp -= 1;
+            if(player.hp.Hp <= 0){
+                if(player.cop == Cops.Karmel)PlayerHandler.SpawnRestartScreen();
+                AudioController.Instance.PlaySound("playerDeath");
+                player.isDead = true;
+            }
+            BulletsPool.Instance.AddToPlayerPool(this.gameObject);
+        }
         if(entity == null && other.CompareTag("Structure"))BulletsPool.Instance.AddToPlayerPool(this.gameObject);
         KillEntity(entity);
     }
@@ -29,14 +41,31 @@ public class Bullet : MonoBehaviour
     }
     void KillEntity(Entity entity){
         if(entity == null)return;
+        if(entity.isDead)return;
+        if(Player.Instance.weaponItem != null){
+            if(Player.Instance.weaponItem.weaponName == "pistol"){
+                entity.Hp.Hp -= 1;
+            }
+        }
         entity.Hp.Hp -= 1;
         entity.foundPlayer = true;
-        if(entity.Hp.Hp <= 0)entity.ChangeCorpse();
+        if(entity.Hp.Hp <= 0){
+            CloseEnemies();
+            EffectsHandler.ThrowStuff(entity, entity.transform, new Vector2(entity.transform.position.x, entity.transform.position.y + 1.25f));
+            entity.ChangeCorpse();
+        }
         if(entity.Hp.Hp < 0)return;
         EffectsHandler.SpawnPopup("PointsPopup", entity.transform, Vector3.zero);
         EffectsHandler.SpawnBlood(entity.transform, this.transform);
-        EffectsHandler.ThrowStuff(entity, entity.transform, new Vector2(entity.transform.position.x, entity.transform.position.y + 1.75f));
         CameraManager.KillShake();
         BulletsPool.Instance.AddToPlayerPool(this.gameObject);
+    }
+    void CloseEnemies(){
+        var enemies = FindObjectsOfType<Entity>();
+        foreach(var e in enemies){
+            if(Vector2.Distance(e.transform.position, this.transform.position) <= 10){
+                e.foundPlayer = true;
+            }
+        }
     }
 }

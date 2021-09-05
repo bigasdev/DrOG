@@ -399,9 +399,10 @@ GameObject:
   - component: {fileID: 465310851}
   - component: {fileID: 465310850}
   - component: {fileID: 465310852}
+  - component: {fileID: 465310853}
   m_Layer: 12
   m_Name: structures
-  m_TagString: Untagged
+  m_TagString: Structure
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -702,6 +703,32 @@ BoxCollider2D:
   m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 3.5509357, y: 7.49359}
+  m_EdgeRadius: 0
+--- !u!61 &465310853
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465310846}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 9.1284075, y: 38.35}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 75, y: 68.75}
+    newSize: {x: 28.75, y: 45}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.587751, y: 7.4935913}
   m_EdgeRadius: 0
 --- !u!1001 &479449750
 PrefabInstance:
@@ -2845,7 +2872,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1639442184050310296, guid: 9c01a2ee0be282b438458b1c72d73a54, type: 3}
       propertyPath: orthographic size
-      value: 10
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1639442184145289036, guid: 9c01a2ee0be282b438458b1c72d73a54, type: 3}
       propertyPath: bounds
